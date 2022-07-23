@@ -11508,11 +11508,10 @@ pre .code {
   min-height: 600px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header-pic.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header-pic.jpg);
-  background-position-y: 50%;
-  background-position-x: 50%;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: local;
   color: #fff;
 }
 
